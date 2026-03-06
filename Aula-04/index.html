@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Na frase temos uma <b>parte do texto em negrito</b> usando a tag B (não semântica)</p>
+    <p>Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag strong (com semântica)</strong></p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântica)</p>
+    <p>Nesta frase vamos entrar com uma palavra em <em>itálico</em> usando a tag EM (com semâmtica)</p>
+    <h2>Texto Marcador</h2>
+    <p>Aqui vamos usar um texto com destaque <mark>de marcador de texto</mark> usando mark</p>
+    <p>Aqui vamos usar um texto com destaque <mark style="background-color: rgb(124, 201, 224);"> de marcador de texto</mark> usando mark</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase</p>
+    <h2>Texto deletado</h2>
+    <p>Neste paragrafo vamos trabalhar com um texto <del>que foi excluido</del> na frase de forma semântica</p>
+    <h2>Texto Inserido</h2>
+    <p>Nesta frase vamos demonstrar como <ins>destacar um texto inserido</ins> de forma não semântica</p>
+    <p>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> de forma não semântica</p>
+    <h2>Texto sobrescito</h2>
+    <p>Vamos demonstrar uma formula da equação do segundo grau ax<sup>2</sup>+bx+c=0 usando a tag sup</p>
+    <h2>Texto subescrito</h2>
+    <p>vamos demonstrar o texto subescrito com a formula da água H<sub>2</sub>O</p>
+    <h2>Código Fonte</h2>
+    <pre>def calcular_f_de_x(a, b, c, x):
+    """
+    Calcula o valor de f(x) para uma função de segundo grau.
+    """
+    return a * (x**2) + b * x + c
+
+# Entrada de dados
+print("--- Calculadora de f(x) = ax² + bx + c ---")
+a = float(input("Digite o valor de a: "))
+b = float(input("Digite o valor de b: "))
+c = float(input("Digite o valor de c: "))
+x = float(input("Digite o valor de x: "))
+
+# Cálculo
+resultado = calcular_f_de_x(a, b, c, x)
+
+# Saída
+print(f"\nPara a função f(x) = {a}x² + {b}x + {c}")
+print(f"O valor de f({x}) é: {resultado}")</code>
+<h2>Citações (quotation) simples</h2>
+<p>Segundo Steve Jobs <q>A tecnologia move o mundo</q></p>
+<h2>Citações completas (livros)</h2>
+<blockquote>“Não tenho medo das tempestades, pois estou aprendendo a navegar meu barco.” — Mulherzinhas de Louisa May Alcott (1868)</blockquote>
+
+    
+</body>
+</html>
