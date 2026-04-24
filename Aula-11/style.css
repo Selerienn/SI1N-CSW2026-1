@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(90deg, #0563A4, #04b1bf, #0563A4);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 1);
+    align-content: center;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    padding: 60px;
+    border-radius: 20%;
+
+}
+
+h1 {
+    text-shadow: 5px 10px 8px #546c99;
+    color: #546c99
+}
+
+h2 {
+    text-align: left;
+    color: #546c99
+}
