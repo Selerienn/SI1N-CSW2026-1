@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#aula {
+    background-color: rgb(61, 61, 61);
+    width: 1700px;
+    height: 800px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#div1 {
+    background-color: rgb(102, 102, 102);
+    width: 1500px;
+    height: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#div1>#p1:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+#div1>p {
+    font-size: 50px;
+}
+
+H1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+#div1>#a:visited {
+    color: red;
+}
+
+h1:hover {
+    color: red;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2:active {
+    color: blue;
+}
+
+a::after {
+    content: "*\1F3B5";
+}
+
+a::before {
+    content: '*';
+}
+
+.div1 {
+    background-color: rgb(141, 141, 141);
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+a {
+    font-size: 40px;
+}
